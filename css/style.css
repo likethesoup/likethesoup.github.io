@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: 0;
+}
+
+body {
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+h1 {
+    text-align: center;    
+}
+
+p {
+    line-height: 1.3em;
+    padding: .5em 0;
+    text-align: center;
+}
+
+
+.container {
+    background-color: azure;    
+    border-radius: 20px;
+}
+
+.madlib {
+    max-width: 90%;
+    margin-left: 1em;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (min-width: 598px) {
+    .container {
+        max-width: 85%;
+        padding: 10%;
+        margin: 2%;
+        border: 40px dotted gray;
+    }
+
+
+.madlib {
+    margin: 0 2em;
+    padding-right: .5em;
+    padding-left: .5em;
+    border-top: none;
+    border-right: 1px solid gray;
+    border-bottom: none;
+    border-left: 1px solid gray;
+    text-align: justify;
+}
+
+    
+}
